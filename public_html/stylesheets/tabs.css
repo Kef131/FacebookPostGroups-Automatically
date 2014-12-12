@@ -1,0 +1,37 @@
+.halfmoon{
+margin-bottom: 1px;
+}
+.halfmoon ul{
+padding: 6px 0px 3px 0px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 11px Tahoma;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+.halfmoon li{
+display: inline;
+margin: 0;
+}
+.halfmoon li a{
+text-decoration: none;
+padding: 4px 16px 4px 16px;
+margin: 0;
+margin-right: 1; /*distance between each tab*/
+border-left: 1px solid #444557;
+color:#444557;
+font: bold 11px Tahoma;
+background: #F9F9F9 url(../images/tabright.gif) top right no-repeat;
+}
+.halfmoon li a:visited{
+color: #444557;
+}
+.halfmoon li a:hover, .halfmoon li a.current{
+background-color:#FFFFCC;
+color: #CC0000;
+}
+
+.tabcontent{
+display:none;
+}

@@ -1,0 +1,62 @@
+.sort-table {
+	font:		Icon;
+	border:		0px Solid ThreeDShadow;
+	background:	Window;
+	color:		WindowText;
+	margin:0;
+}
+
+.sort-table thead {
+	background:	ButtonFace;
+}
+
+.sort-table td {
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	font-family:Tahoma;
+	font-weight:100;
+	font-size:13px;
+	cursor:pointer;
+}
+
+.sort-table thead td {
+    padding:	0px 5px;
+	padding-bottom:2px;
+	border:			1px solid;
+	font-size:13px;
+	font-family:Arial;
+	font-weight:bold;
+	border-color:	ButtonHighlight ButtonShadow
+					ButtonShadow ButtonHighlight;
+	cursor:			default;
+}
+
+.sort-table thead td:active {
+	border-color:	ButtonShadow ButtonHighlight
+					ButtonHighlight ButtonShadow;
+	padding:		3px 4px 1px 6px;
+}
+
+.sort-table thead td[_sortType=None]:active {
+	border-color:	ButtonHighlight ButtonShadow
+					ButtonShadow ButtonHighlight;
+	padding:		2px 5px;
+}
+
+.sort-arrow {
+	width:					8px;
+	height:					8px;
+	background-position:	center center;
+	background-repeat:		no-repeat;
+	margin:					0 0px;
+}
+
+.sort-arrow.descending {
+	background-image:		url("../images/downsimple.png");
+
+}
+
+.sort-arrow.ascending {
+	background-image:		url("../images/upsimple.png");
+}

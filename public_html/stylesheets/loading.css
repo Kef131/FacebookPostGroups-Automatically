@@ -1,0 +1,31 @@
+div.loading-invisible{
+    /*make invisible*/
+    display:none;
+  }
+
+  /*this is what we want the div to look like
+    when it IS showing*/
+  div.loading-visible{
+    /*make visible*/
+    display:block;
+	padding-bottom:2px;
+	padding-top:2px;
+
+    /*position it 200px down the screen*/
+    position:absolute;
+    top:1px;
+    left:0;
+    width:100%;
+    text-align:center;
+
+    /*in supporting browsers, make it
+      a little transparent*/
+    background:#FEFFD5;
+    opacity:.95;
+  
+    border-bottom:1px solid #FFEB70;
+	color:#CC3300;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+  }

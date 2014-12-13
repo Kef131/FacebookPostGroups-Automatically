@@ -54,6 +54,8 @@ $totalcampaigns=mysql_num_rows($res);
 <link href="stylesheets/layout_styles.css" rel="stylesheet" type="text/css">
 <link href="stylesheets/font_styles.css" rel="stylesheet" type="text/css">
 <link href="stylesheets/jqueryslidemenu.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
 <!--[if lte IE 7]>
 <style type="text/css">
 html .jqueryslidemenu{height: 1%;} 

@@ -21,6 +21,9 @@
     text-align: left;
     vertical-align: middle;
 }
+.error-msg{
+  color:red;
+}
 </style>
 </head>
 <body class="bg2" onLoad="document.forms[0].elements[0].focus()">
@@ -111,7 +114,11 @@
 <?php
 if($_SESSION['fbs_error']=="0")//invalid user/password
 {
-echo("<script>document.getElementById('error').style.visibility='visible';document.getElementById('error').innerHTML='Incorrect login details.';document.forms[0].elements[0].focus();</script>");
+echo("<script>
+        document.getElementById('error').style.visibility='visible';
+        document.getElementById('error').innerHTML='<span class=\"error-msg\">Credenciales de acceso incorrectas</span>';
+        document.forms[0].elements[0].focus();</script>"
+      );
 unset($_SESSION['fbs_error']);
 }
 ?>
